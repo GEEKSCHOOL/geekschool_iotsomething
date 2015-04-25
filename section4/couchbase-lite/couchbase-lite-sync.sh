@@ -1,7 +1,7 @@
 #!/bin/bash
 
-CBL_ID="5827a757-e613-4a2c-b73f-1a64dc71e93b"
-CBL_PASS="ef633203-75b2-49bb-a167-a6a4980e73be"
+CBL_ID="Your Couchbase Lite ID"
+CBL_PASS="Your Couchbase Lite PASSWORD"
 CBL_IP="localhost"
 CBL_PORT=5984
 CBL_DATABASE="geek"
