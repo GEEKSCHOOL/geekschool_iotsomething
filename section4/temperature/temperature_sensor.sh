@@ -10,7 +10,7 @@ CBL_DATABASE="geek"
 
 # curl -v -X PUT http://${CBL_ID}:${CBL_PASS}@${CBL_IP}:${CBL_PORT}/${CBL_DATABASE}/
 
-TEMP=`sudo ./temperature`
+TEMP=`sudo /home/pi/Document/C/temperature`
 echo "TEMP = ${TEMP}"
 
 echo "curl -v -X POST -H 'Content-Type: application/json' -d '${TEMP}' http://${CBL_ID}:${CBL_PASS}@${CBL_IP}:${CBL_PORT}/geek/"
